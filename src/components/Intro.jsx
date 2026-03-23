@@ -145,10 +145,12 @@ const Intro = () => {
                    <div className="absolute inset-0 z-0 opacity-20" style={{ backgroundImage: 'linear-gradient(var(--color-primary) 1px, transparent 1px), linear-gradient(90deg, var(--color-primary) 1px, transparent 1px)', backgroundSize: '40px 40px' }}></div>
 
                    <div className="relative z-10 flex flex-col items-center">
-                        <div className="w-48 h-48 rounded-full border-4 border-dashed border-[var(--color-secondary)]/50 flex items-center justify-center p-2 mb-6 shadow-[0_0_30px_rgba(170,0,255,0.2)]">
-                             <div className="w-full h-full rounded-full bg-gradient-to-tr from-[var(--color-primary)] to-[var(--color-secondary)] flex items-center justify-center text-4xl font-bold text-white shadow-inner">
-                                MN
-                             </div>
+                        <div className="w-48 h-48 rounded-full border-4 border-[var(--color-secondary)]/50 flex items-center justify-center p-1 mb-6 shadow-[0_0_30px_rgba(170,0,255,0.2)] overflow-hidden bg-gradient-to-tr from-[var(--color-primary)] to-[var(--color-secondary)]">
+                             <img 
+                                src="/profile.jpg" 
+                                alt="Mritunjay Nagar" 
+                                className="w-full h-full rounded-full object-cover shadow-inner"
+                             />
                         </div>
                         <div className="text-2xl font-bold text-[var(--color-text-main)] mb-2 inline-flex items-center gap-2">
                              <span className="text-[var(--color-primary)]">const</span> developer <span className="text-[var(--color-secondary)]">=</span> "awesome";
